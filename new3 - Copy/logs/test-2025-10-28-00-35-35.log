@@ -1,0 +1,41 @@
+2025-10-28 00:35:35 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  excel data reader  
+2025-10-28 00:35:35 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  sheet.getLastRowNum()  4
+2025-10-28 00:35:35 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-28 00:35:35 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-28 00:35:35 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-28 00:35:35 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-28 00:35:35 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  excel data reading done   
+2025-10-28 00:35:38 [main] INFO  script.SampleTest -  Browser launched 
+2025-10-28 00:35:44 [main] WARN  script.SampleTest -  URL ===== https://trunkia-backoffice-real.ivycomptech.co.in/home.action
+2025-10-28 00:35:44 [main] INFO  script.SampleTest - 👤 Username entered: user
+2025-10-28 00:35:44 [main] INFO  script.SampleTest - 🔑 Password entered
+2025-10-28 00:35:48 [main] INFO  script.SampleTest - ➡️ Submitted login form
+2025-10-28 00:35:48 [main] INFO  script.SampleTest -  login done 
+2025-10-28 00:35:52 [main] INFO  script.SampleTest - ✅ Clicked on 'Casino Admin'
+2025-10-28 00:35:56 [main] INFO  script.SampleTest - 🎯 Navigated to Casino Lobby Manager successfully
+2025-10-28 00:35:56 [main] INFO  script.SampleTest -  navigateToLobbyManager 
+2025-10-28 00:35:58 [main] INFO  script.SampleTest - ----------------------------------------------------------
+2025-10-28 00:35:58 [main] INFO  script.SampleTest - 🎯 Starting configuration for brand: BWINCOM
+2025-10-28 00:35:58 [main] INFO  script.SampleTest - ✅ Template match confirmed for BWINCOM (bz_test_1233)
+2025-10-28 00:36:01 [main] INFO  script.SampleTest - Template name entered: bz_test_1233
+2025-10-28 00:36:07 [main] INFO  script.SampleTest - Template radio button selected: bz_test_1233
+2025-10-28 00:36:12 [main] INFO  script.SampleTest - 🎮 Adding game variant: prgpandemicrising
+2025-10-28 00:36:23 [main] INFO  script.SampleTest - 🎮 Adding game variant: nyxburninhellholdandwinn
+2025-10-28 00:36:43 [main] INFO  script.SampleTest - ✅ Successfully finished configuration for brand: BWINCOM
+2025-10-28 00:36:43 [main] INFO  script.SampleTest - ----------------------------------------------------------
+2025-10-28 00:36:47 [main] INFO  script.SampleTest - ----------------------------------------------------------
+2025-10-28 00:36:47 [main] INFO  script.SampleTest - 🎯 Starting configuration for brand: BETMGMONCA
+2025-10-28 00:36:47 [main] ERROR script.SampleTest - ❌ TEMPLATE MISMATCH for brand BETMGMONCA | Excel: on_betmgmpa__all_defaultt | Expected: on_betmgmpa__all_default
+2025-10-28 00:36:49 [main] INFO  script.SampleTest - ----------------------------------------------------------
+2025-10-28 00:36:49 [main] INFO  script.SampleTest - 🎯 Starting configuration for brand: FOXYBINGO
+2025-10-28 00:36:49 [main] INFO  script.SampleTest - ✅ Template match confirmed for FOXYBINGO (fb_all_config)
+2025-10-28 00:36:52 [main] INFO  script.SampleTest - Template name entered: fb_all_config
+2025-10-28 00:36:55 [main] INFO  script.SampleTest - Template radio button selected: fb_all_config
+2025-10-28 00:37:00 [main] INFO  script.SampleTest - 🎮 Adding game variant: prgpandemicrising
+2025-10-28 00:37:11 [main] INFO  script.SampleTest - 🎮 Adding game variant: nyxburninhellholdandwin
+2025-10-28 00:37:31 [main] INFO  script.SampleTest - ✅ Successfully finished configuration for brand: FOXYBINGO
+2025-10-28 00:37:31 [main] INFO  script.SampleTest - ----------------------------------------------------------
+2025-10-28 00:37:35 [main] INFO  script.SampleTest - ----------------------------------------------------------
+2025-10-28 00:37:35 [main] INFO  script.SampleTest - 🎯 Starting configuration for brand: FOXYGAMES
+2025-10-28 00:37:35 [main] ERROR script.SampleTest - ❌ TEMPLATE MISMATCH for brand FOXYGAMES | Excel: fbr_all_confignew | Expected: fbr_all_confignnew
+2025-10-28 00:37:35 [main] INFO  script.SampleTest -  configureLobbies 

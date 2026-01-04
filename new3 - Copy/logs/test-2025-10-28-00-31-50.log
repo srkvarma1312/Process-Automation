@@ -1,0 +1,10 @@
+2025-10-28 00:31:55 [main] INFO  script.SampleTest -  Browser launched 
+2025-10-28 00:32:00 [main] WARN  script.SampleTest -  URL ===== https://trunkia-backoffice-real.ivycomptech.co.in/home.action
+2025-10-28 00:32:00 [main] INFO  script.SampleTest - 👤 Username entered: user
+2025-10-28 00:32:01 [main] INFO  script.SampleTest - 🔑 Password entered
+2025-10-28 00:32:05 [main] INFO  script.SampleTest - ➡️ Submitted login form
+2025-10-28 00:32:05 [main] INFO  script.SampleTest -  login done 
+2025-10-28 00:32:09 [main] INFO  script.SampleTest - ✅ Clicked on 'Casino Admin'
+2025-10-28 00:32:14 [main] INFO  script.SampleTest - 🎯 Navigated to Casino Lobby Manager successfully
+2025-10-28 00:32:14 [main] INFO  script.SampleTest -  navigateToLobbyManager 
+2025-10-28 00:32:14 [main] INFO  script.SampleTest -  configureLobbies 

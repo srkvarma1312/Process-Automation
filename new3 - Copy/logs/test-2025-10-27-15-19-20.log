@@ -1,0 +1,13 @@
+2025-10-27 15:19:21 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  excel data reader  
+2025-10-27 15:19:21 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  sheet.getLastRowNum()  4
+2025-10-27 15:19:21 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-27 15:19:21 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-27 15:19:21 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-27 15:19:21 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-27 15:19:21 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  excel data reading done   
+2025-10-27 15:19:26 [main] INFO  script.SampleTest -  Browser launched 
+2025-10-27 15:19:31 [main] WARN  script.SampleTest -  URL ===== https://trunkia-backoffice-real.ivycomptech.co.in/home.action
+2025-10-27 15:19:31 [main] WARN  script.SampleTest -  userName has passed ======= guest 
+2025-10-27 15:19:31 [main] WARN  script.SampleTest -  password has passed ======= 123123 
+2025-10-27 15:19:38 [main] INFO  script.SampleTest -  pressed on  submit button 
+2025-10-27 15:19:38 [main] INFO  script.SampleTest -  login done 

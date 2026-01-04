@@ -1,0 +1,9 @@
+2025-10-28 01:24:20 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  excel data reader  
+2025-10-28 01:24:20 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  sheet.getLastRowNum()  4
+2025-10-28 01:24:20 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-28 01:24:20 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-28 01:24:20 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-28 01:24:20 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-28 01:24:20 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  excel data reading done   
+2025-10-28 01:24:23 [main] INFO  script.SampleTest -  Browser launched 
+2025-10-28 01:24:25 [main] WARN  script.SampleTest -  URL ===== https://trunkia-backoffice-real.ivycomptech.co.in/home.action

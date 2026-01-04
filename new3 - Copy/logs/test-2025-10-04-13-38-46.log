@@ -1,0 +1,12 @@
+2025-10-04 13:38:53 [main] INFO  script.SampleTest -  Browser launched 
+2025-10-04 13:38:56 [main] WARN  script.SampleTest -  URL ===== https://backoffice.partygaming.com.e7new.com/home.action#
+2025-10-04 13:38:56 [main] WARN  script.SampleTest -  userName has passed ======= guest 
+2025-10-04 13:38:56 [main] WARN  script.SampleTest -  password has passed ======= 123123 
+2025-10-04 13:38:56 [main] INFO  script.SampleTest -  pressed on  submit button 
+2025-10-04 13:38:56 [main] INFO  script.SampleTest -  login done 
+2025-10-04 13:39:09 [main] INFO  script.SampleTest -  navigateToLobbyManager 
+2025-10-04 13:39:13 [main] WARN  script.SampleTest -  templateName  ======= bz_c_desktop_default
+2025-10-04 13:39:54 [main] WARN  script.SampleTest -  templateName  ======= betmgmonca_desktop
+2025-10-04 13:40:31 [main] WARN  script.SampleTest -  templateName  ======= fb_c_desktop_default
+2025-10-04 13:41:08 [main] WARN  script.SampleTest -  templateName  ======= ga_all_config
+2025-10-04 13:41:45 [main] WARN  script.SampleTest -  templateName  ======= ga_all_config
