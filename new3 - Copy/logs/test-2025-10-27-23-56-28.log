@@ -1,0 +1,17 @@
+2025-10-27 23:56:29 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  excel data reader  
+2025-10-27 23:56:29 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  sheet.getLastRowNum()  4
+2025-10-27 23:56:29 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-27 23:56:29 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-27 23:56:29 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-27 23:56:29 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-27 23:56:29 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  excel data reading done   
+2025-10-27 23:56:32 [main] INFO  script.SampleTest -  Browser launched 
+2025-10-27 23:56:37 [main] WARN  script.SampleTest -  URL ===== https://trunkia-backoffice-real.ivycomptech.co.in/home.action
+2025-10-27 23:56:37 [main] INFO  script.SampleTest - 👤 Username entered: user
+2025-10-27 23:56:38 [main] INFO  script.SampleTest - 🔑 Password entered
+2025-10-27 23:56:48 [main] INFO  script.SampleTest - ➡️ Submitted login form
+2025-10-27 23:56:48 [main] INFO  script.SampleTest -  login done 
+2025-10-27 23:56:51 [main] INFO  script.SampleTest -  navigateToLobbyManager 
+2025-10-27 23:56:53 [main] INFO  script.SampleTest - ----------------------------------------------------------
+2025-10-27 23:56:53 [main] INFO  script.SampleTest - 🎯 Starting configuration for brand: BWINCOM
+2025-10-27 23:56:53 [main] INFO  script.SampleTest - ✅ Template match confirmed for BWINCOM (bz_test_1233)

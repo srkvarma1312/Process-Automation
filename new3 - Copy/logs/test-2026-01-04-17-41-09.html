@@ -1,0 +1,85 @@
+2026-01-04 17:41:10 [TestNG-tests-1] INFO  fileUtilities.GamesAdditionExcelUtility1 - Reading Excel data...
+2026-01-04 17:41:10 [TestNG-tests-2] INFO  fileUtilities.GamesAdditionExcelUtility1 - Reading Excel data...
+2026-01-04 17:41:10 [TestNG-tests-2] INFO  fileUtilities.GamesAdditionExcelUtility1 - Total rows: 12
+2026-01-04 17:41:10 [TestNG-tests-1] INFO  fileUtilities.GamesAdditionExcelUtility1 - Total rows: 12
+2026-01-04 17:41:10 [TestNG-tests-2] INFO  fileUtilities.GamesAdditionExcelUtility1 - Excel data reading completed.
+2026-01-04 17:41:10 [TestNG-tests-1] INFO  fileUtilities.GamesAdditionExcelUtility1 - Excel data reading completed.
+2026-01-04 17:41:18 [TestNG-tests-2] INFO  script.Test2 - Browser launched
+2026-01-04 17:41:18 [TestNG-tests-2] INFO  script.Test2 - Excel rows count => 12
+2026-01-04 17:41:19 [TestNG-tests-1] INFO  script.Test1 - Browser launched
+2026-01-04 17:41:19 [TestNG-tests-1] INFO  script.Test1 - Excel rows count => 12
+2026-01-04 17:41:19 [TestNG-tests-2] WARN  script.Test2 - URL loaded
+2026-01-04 17:41:20 [TestNG-tests-1] WARN  script.Test1 - URL loaded
+2026-01-04 17:41:27 [TestNG-tests-2] INFO  businessLogics.BusinessUtilitiesParallel - LOGIN SUCCESS
+2026-01-04 17:41:27 [TestNG-tests-2] INFO  script.Test2 - ========== LOGIN SUCCESS ==========
+2026-01-04 17:41:30 [TestNG-tests-1] INFO  businessLogics.BusinessUtilitiesParallel - LOGIN SUCCESS
+2026-01-04 17:41:30 [TestNG-tests-1] INFO  script.Test1 - ========== LOGIN SUCCESS ==========
+2026-01-04 17:41:38 [TestNG-tests-2] INFO  businessLogics.BusinessUtilitiesParallel - Navigated to Casino Lobby Manager
+2026-01-04 17:41:40 [TestNG-tests-2] INFO  businessLogics.BusinessUtilitiesParallel - ========== BRAND START : BWINCOM ==========
+2026-01-04 17:41:43 [TestNG-tests-1] INFO  businessLogics.BusinessUtilitiesParallel - Navigated to Casino Lobby Manager
+2026-01-04 17:41:43 [TestNG-tests-1] WARN  script.Test1 - Skipping brand (no variants): BWINCOM
+2026-01-04 17:41:45 [TestNG-tests-1] INFO  businessLogics.BusinessUtilitiesParallel - ========== BRAND START : BETMGMONCA ==========
+2026-01-04 17:42:02 [TestNG-tests-2] INFO  businessLogics.BusinessUtilitiesParallel - Processing game variant: nyxintothestorm1
+2026-01-04 17:42:07 [TestNG-tests-2] INFO  businessLogics.BusinessUtilitiesParallel - ALREADY ADDED (Right Side): nyxintothestorm1
+2026-01-04 17:42:07 [TestNG-tests-2] INFO  businessLogics.BusinessUtilitiesParallel - Processing game variant: nyxblazing7sbigbonus
+2026-01-04 17:42:07 [TestNG-tests-1] INFO  businessLogics.BusinessUtilitiesParallel - Processing game variant: nyxintothestorm1
+2026-01-04 17:42:11 [TestNG-tests-2] INFO  businessLogics.BusinessUtilitiesParallel - ALREADY ADDED (Right Side): nyxblazing7sbigbonus
+2026-01-04 17:42:11 [TestNG-tests-2] INFO  businessLogics.BusinessUtilitiesParallel - Processing game variant: playtechliveblackjack10
+2026-01-04 17:42:11 [TestNG-tests-1] INFO  businessLogics.BusinessUtilitiesParallel - ALREADY ADDED (Right Side): nyxintothestorm1
+2026-01-04 17:42:11 [TestNG-tests-1] INFO  businessLogics.BusinessUtilitiesParallel - Processing game variant: nyxblazing7sbigbonus
+2026-01-04 17:42:15 [TestNG-tests-2] INFO  businessLogics.BusinessUtilitiesParallel - ALREADY ADDED (Right Side): playtechliveblackjack10
+2026-01-04 17:42:15 [TestNG-tests-1] INFO  businessLogics.BusinessUtilitiesParallel - ALREADY ADDED (Right Side): nyxblazing7sbigbonus
+2026-01-04 17:43:20 [TestNG-tests-2] ERROR businessLogics.BusinessUtilitiesParallel - ❌ Cluster message not found! Neither LCG nor GVC message is visible.
+2026-01-04 17:43:20 [TestNG-tests-2] ERROR script.Test2 - Execution failed
+businessLogics.ClusterMessageNotFoundException: ❌ Cluster message not found! Neither LCG nor GVC message is visible.
+	at businessLogics.BusinessUtilitiesParallel.getClusterMessage(BusinessUtilitiesParallel.java:240) ~[test-classes/:?]
+	at businessLogics.BusinessUtilitiesParallel.addGames(BusinessUtilitiesParallel.java:318) ~[test-classes/:?]
+	at businessLogics.BusinessUtilitiesParallel.configureLobbies(BusinessUtilitiesParallel.java:205) ~[test-classes/:?]
+	at script.Test2.addGamesToLobbies(Test2.java:93) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:819) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.TestRunner.run(TestRunner.java:619) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58) ~[testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2026-01-04 17:43:21 [TestNG-tests-1] ERROR businessLogics.BusinessUtilitiesParallel - ❌ Cluster message not found! Neither LCG nor GVC message is visible.
+2026-01-04 17:43:21 [TestNG-tests-1] ERROR script.Test1 - Execution failed
+businessLogics.ClusterMessageNotFoundException: ❌ Cluster message not found! Neither LCG nor GVC message is visible.
+	at businessLogics.BusinessUtilitiesParallel.getClusterMessage(BusinessUtilitiesParallel.java:240) ~[test-classes/:?]
+	at businessLogics.BusinessUtilitiesParallel.addGames(BusinessUtilitiesParallel.java:318) ~[test-classes/:?]
+	at businessLogics.BusinessUtilitiesParallel.configureLobbies(BusinessUtilitiesParallel.java:205) ~[test-classes/:?]
+	at script.Test1.addGamesToLobbies(Test1.java:97) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:819) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.TestRunner.run(TestRunner.java:619) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58) ~[testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]

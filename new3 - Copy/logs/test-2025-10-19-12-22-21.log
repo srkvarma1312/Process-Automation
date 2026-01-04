@@ -1,0 +1,9 @@
+2025-10-19 12:22:24 [main] INFO  script.SampleTest -  Browser launched 
+2025-10-19 12:22:27 [main] WARN  script.SampleTest -  URL ===== https://trunkia-backoffice-real.ivycomptech.co.in/home.action
+2025-10-19 12:22:27 [main] WARN  script.SampleTest -  userName has passed ======= guest 
+2025-10-19 12:22:27 [main] WARN  script.SampleTest -  password has passed ======= 123123 
+2025-10-19 12:22:27 [main] INFO  script.SampleTest -  pressed on  submit button 
+2025-10-19 12:22:27 [main] INFO  script.SampleTest -  login done 
+2025-10-19 12:22:32 [main] INFO  script.SampleTest -  navigateToLobbyManager 
+2025-10-19 12:22:36 [main] WARN  script.SampleTest -  templateName  ======= bz_test_1233
+2025-10-19 12:23:24 [main] INFO  script.SampleTest -  configureLobbies 

@@ -1,0 +1,21 @@
+2025-10-28 00:33:39 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  excel data reader  
+2025-10-28 00:33:39 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  sheet.getLastRowNum()  4
+2025-10-28 00:33:39 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-28 00:33:39 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-28 00:33:39 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-28 00:33:39 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-28 00:33:39 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  excel data reading done   
+2025-10-28 00:33:42 [main] INFO  script.SampleTest -  Browser launched 
+2025-10-28 00:33:48 [main] WARN  script.SampleTest -  URL ===== https://trunkia-backoffice-real.ivycomptech.co.in/home.action
+2025-10-28 00:33:48 [main] INFO  script.SampleTest - 👤 Username entered: user
+2025-10-28 00:33:48 [main] INFO  script.SampleTest - 🔑 Password entered
+2025-10-28 00:33:52 [main] INFO  script.SampleTest - ➡️ Submitted login form
+2025-10-28 00:33:53 [main] INFO  script.SampleTest -  login done 
+2025-10-28 00:33:57 [main] INFO  script.SampleTest - ✅ Clicked on 'Casino Admin'
+2025-10-28 00:34:01 [main] INFO  script.SampleTest - 🎯 Navigated to Casino Lobby Manager successfully
+2025-10-28 00:34:01 [main] INFO  script.SampleTest -  navigateToLobbyManager 
+2025-10-28 00:34:03 [main] INFO  script.SampleTest - ----------------------------------------------------------
+2025-10-28 00:34:03 [main] INFO  script.SampleTest - 🎯 Starting configuration for brand: BWINCOM
+2025-10-28 00:34:03 [main] INFO  script.SampleTest - ✅ Template match confirmed for BWINCOM (bz_test_1233)
+2025-10-28 00:34:06 [main] INFO  script.SampleTest - Template name entered: bz_test_1233
+2025-10-28 00:34:12 [main] INFO  script.SampleTest - Template radio button selected: bz_test_1233

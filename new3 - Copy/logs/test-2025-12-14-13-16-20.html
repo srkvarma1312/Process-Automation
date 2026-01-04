@@ -1,0 +1,53 @@
+2025-12-14 13:16:20 [main] ERROR fileUtilities.GamesAdditionExcelUtility1 - Error reading Excel file: C:\Users\Sai.Diddi\OneDrive - Entain Group\TemplatesFile.xlsx (The process cannot access the file because it is being used by another process)
+java.io.FileNotFoundException: C:\Users\Sai.Diddi\OneDrive - Entain Group\TemplatesFile.xlsx (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111) ~[?:?]
+	at fileUtilities.GamesAdditionExcelUtility1.getGameDataFromExcel(GamesAdditionExcelUtility1.java:66) [classes/:?]
+	at script.AddGamesToLobbies1.<clinit>(AddGamesToLobbies1.java:28) [test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) [?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) [?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) [?:?]
+	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:38) [testng-7.9.0.jar:7.9.0]
+	at org.testng.ITestObjectFactory.newInstance(ITestObjectFactory.java:18) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.objects.SimpleObjectDispenser.instantiateUsingDefaultConstructor(SimpleObjectDispenser.java:178) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.objects.SimpleObjectDispenser.createInstance(SimpleObjectDispenser.java:87) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.objects.SimpleObjectDispenser.dispense(SimpleObjectDispenser.java:40) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.objects.GuiceBasedObjectDispenser.dispense(GuiceBasedObjectDispenser.java:28) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:106) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:136) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestClass.getInstances(TestClass.java:129) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:109) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestClass.init(TestClass.java:101) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestClass.<init>(TestClass.java:66) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestRunner.initMethods(TestRunner.java:481) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestRunner.init(TestRunner.java:354) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestRunner.init(TestRunner.java:307) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestRunner.<init>(TestRunner.java:226) [testng-7.9.0.jar:7.9.0]
+	at org.testng.remote.support.RemoteTestNG7_9$1.newTestRunner(RemoteTestNG7_9.java:35) [testng-remote.jar:?]
+	at org.testng.remote.support.RemoteTestNG7_9$DelegatingTestRunnerFactory.newTestRunner(RemoteTestNG7_9.java:68) [testng-remote.jar:?]
+	at org.testng.ITestRunnerFactory.newTestRunner(ITestRunnerFactory.java:52) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner$ProxyTestRunnerFactory.newTestRunner(SuiteRunner.java:720) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.init(SuiteRunner.java:224) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:116) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1396) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1370) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1219) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1134) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.run(TestNG.java:1101) [testng-7.9.0.jar:7.9.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-12-14 13:16:44 [main] INFO  script.SampleTest -  Browser launched 
+2025-12-14 13:16:47 [main] WARN  script.SampleTest -  URL ===== https://backoffice.partygaming.com.e7new.com/home.action
+2025-12-14 13:16:47 [main] INFO  script.SampleTest - Username entered: user
+2025-12-14 13:16:47 [main] INFO  script.SampleTest - Password entered
+2025-12-14 13:16:47 [main] INFO  script.SampleTest - Submitted login form
+2025-12-14 13:16:51 [main] INFO  script.SampleTest -  login done 
+2025-12-14 13:16:59 [main] INFO  script.SampleTest - Casino Admin clicked via JS executor
+2025-12-14 13:17:04 [main] INFO  script.SampleTest - Navigated to Casino Lobby Manager successfully.
+2025-12-14 13:17:04 [main] INFO  script.SampleTest -  navigateToLobbyManager 
+2025-12-14 13:17:04 [main] INFO  script.SampleTest -  configured All Lobbies 

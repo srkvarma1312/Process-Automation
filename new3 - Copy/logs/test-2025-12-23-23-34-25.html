@@ -1,0 +1,64 @@
+2025-12-23 23:34:26 [main] INFO  fileUtilities.GamesAdditionExcelUtility1 - Reading Excel data...
+2025-12-23 23:34:26 [main] INFO  fileUtilities.GamesAdditionExcelUtility1 - Total rows: 12
+2025-12-23 23:34:26 [main] INFO  fileUtilities.GamesAdditionExcelUtility1 - Excel data reading completed.
+2025-12-23 23:34:28 [main] INFO  script.AddGamesToLobbies1 - Browser launched
+2025-12-23 23:34:28 [main] INFO  script.AddGamesToLobbies1 - Excel rows count => 12
+2025-12-23 23:34:29 [main] WARN  script.AddGamesToLobbies1 - URL loaded
+2025-12-23 23:34:29 [main] INFO  script.SampleTest - LOGIN SUCCESS
+2025-12-23 23:34:29 [main] INFO  script.AddGamesToLobbies1 - ========== LOGIN SUCCESS ==========
+2025-12-23 23:34:29 [main] ERROR script.AddGamesToLobbies1 - Execution failed
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='nav-icon-ADT']"}
+  (Session info: chrome=143.0.7499.169)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [abd81a70cc3f4c77aa3b1c0f7d046a38, findElement {using=xpath, value=//*[@class='nav-icon-ADT']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.169, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\SAI~1.DID\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52418}, goog:processID: 18400, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52418/devtoo..., se:cdpVersion: 143.0.7499.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: abd81a70cc3f4c77aa3b1c0f7d046a38
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349) ~[selenium-remote-driver-4.20.0.jar:?]
+	at businessLogics.BusinessUtilities1.navigateToLobbyManager(BusinessUtilities1.java:64) ~[test-classes/:?]
+	at script.AddGamesToLobbies1.addGamesToLobbies(AddGamesToLobbies1.java:58) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:819) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestRunner.run(TestRunner.java:619) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1134) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.run(TestNG.java:1101) [testng-7.9.0.jar:7.9.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
