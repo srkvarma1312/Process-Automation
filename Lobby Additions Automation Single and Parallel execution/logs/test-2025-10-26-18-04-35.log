@@ -1,0 +1,21 @@
+2025-10-26 18:04:36 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  excel data reader  
+2025-10-26 18:04:36 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  sheet.getLastRowNum()  2
+2025-10-26 18:04:36 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-26 18:04:36 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-26 18:04:36 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  excel data reading done   
+2025-10-26 18:04:40 [main] INFO  script.SampleTest -  Browser launched 
+2025-10-26 18:04:43 [main] WARN  script.SampleTest -  URL ===== https://trunkia-backoffice-real.ivycomptech.co.in/home.action
+2025-10-26 18:04:43 [main] WARN  script.SampleTest -  userName has passed ======= guest 
+2025-10-26 18:04:43 [main] WARN  script.SampleTest -  password has passed ======= 123123 
+2025-10-26 18:04:46 [main] INFO  script.SampleTest -  pressed on  submit button 
+2025-10-26 18:04:46 [main] INFO  script.SampleTest -  login done 
+2025-10-26 18:04:49 [main] INFO  script.SampleTest -  navigateToLobbyManager 
+2025-10-26 18:04:54 [main] WARN  script.SampleTest -  templateName  ======= bz_test_1233
+2025-10-26 18:05:04 [main] WARN  script.SampleTest - game = prgliveturkishblackjack5
+2025-10-26 18:05:17 [main] WARN  script.SampleTest - game = prgplinkoplus
+2025-10-26 18:05:30 [main] WARN  script.SampleTest - game = prgwolfgold4pack
+2025-10-26 18:05:59 [main] WARN  script.SampleTest -  templateName  ======= on_betmgmpa__all_default
+2025-10-26 18:06:07 [main] WARN  script.SampleTest - game = prgliveturkishblackjack5
+2025-10-26 18:06:21 [main] WARN  script.SampleTest - game = prgplinkoplus
+2025-10-26 18:06:34 [main] WARN  script.SampleTest - game = prgwolfgold4pack
+2025-10-26 18:06:59 [main] INFO  script.SampleTest -  configureLobbies 

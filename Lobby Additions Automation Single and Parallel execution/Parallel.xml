@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelSuite" parallel="tests" thread-count="2">
+
+    <test name="Desktop">
+        <classes>
+            <class name="script.Desktop"/>
+        </classes>
+    </test>
+
+    <test name="Mobile">
+        <classes>
+            <class name="script.Mobile"/>
+        </classes>
+    </test>
+
+</suite>

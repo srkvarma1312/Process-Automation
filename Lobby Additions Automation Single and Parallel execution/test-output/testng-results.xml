@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-05T23:07:48 IST" name="Default suite" finished-at="2026-01-05T23:08:12 IST" duration-ms="24099">
+    <groups>
+    </groups>
+    <test started-at="2026-01-05T23:07:48 IST" name="Default test" finished-at="2026-01-05T23:08:12 IST" duration-ms="24099">
+      <class name="script.AddGamesToLobbies1">
+        <test-method signature="addGamesToLobbies()[pri:0, instance:script.AddGamesToLobbies1@75b25825]" started-at="2026-01-05T23:07:48 IST" name="addGamesToLobbies" finished-at="2026-01-05T23:08:12 IST" duration-ms="24069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addGamesToLobbies -->
+      </class> <!-- script.AddGamesToLobbies1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

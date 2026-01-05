@@ -1,0 +1,12 @@
+2025-08-10 14:45:34 [main] INFO  script.SampleTest - Browser launched
+2025-08-10 14:45:39 [main] INFO  script.SampleTest - Navigated to Google
+2025-08-10 14:45:39 [main] INFO  script.SampleTest - Browser closed
+2025-08-10 14:45:39 [main] INFO  script.SampleTest - Extent report generated
+2025-08-10 14:49:55 [main] INFO  script.SampleTest - Browser launched
+2025-08-10 14:50:00 [main] INFO  script.SampleTest - Navigated to Google
+2025-08-10 14:50:00 [main] INFO  script.SampleTest - Browser closed
+2025-08-10 14:50:01 [main] INFO  script.SampleTest - Extent report generated
+2025-08-10 14:53:17 [main] INFO  script.SampleTest - Browser launched
+2025-08-10 14:53:22 [main] INFO  script.SampleTest - Navigated to Google
+2025-08-10 14:53:22 [main] INFO  script.SampleTest - Browser closed
+2025-08-10 14:53:22 [main] INFO  script.SampleTest - Extent report generated

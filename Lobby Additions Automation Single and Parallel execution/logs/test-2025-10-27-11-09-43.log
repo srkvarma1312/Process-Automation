@@ -1,0 +1,29 @@
+2025-10-27 11:09:44 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  excel data reader  
+2025-10-27 11:09:44 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  sheet.getLastRowNum()  2
+2025-10-27 11:09:44 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-27 11:09:44 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-27 11:09:44 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  excel data reading done   
+2025-10-27 11:09:48 [main] INFO  script.SampleTest -  Browser launched 
+2025-10-27 11:09:50 [main] WARN  script.SampleTest -  URL ===== https://trunkia-backoffice-real.ivycomptech.co.in/home.action
+2025-10-27 11:09:51 [main] WARN  script.SampleTest -  userName has passed ======= guest 
+2025-10-27 11:09:51 [main] WARN  script.SampleTest -  password has passed ======= 123123 
+2025-10-27 11:09:54 [main] INFO  script.SampleTest -  pressed on  submit button 
+2025-10-27 11:09:54 [main] INFO  script.SampleTest -  login done 
+2025-10-27 11:09:56 [main] INFO  script.SampleTest -  navigateToLobbyManager 
+2025-10-27 11:10:01 [main] WARN  script.SampleTest -  templateName  ======= bz_test_1233
+2025-10-27 11:10:10 [main] WARN  script.SampleTest - game = prgyoucanpiggybankonit
+2025-10-27 11:10:26 [main] WARN  script.SampleTest - game = prggatesoolympus1000de
+2025-10-27 11:10:42 [main] WARN  script.SampleTest - game = prglivebljkxittricolore1
+2025-10-27 11:10:57 [main] WARN  script.SampleTest - game = prglivecasinoholdem
+2025-10-27 11:11:13 [main] WARN  script.SampleTest - game = prgtempleguardians
+2025-10-27 11:11:28 [main] WARN  script.SampleTest - game = prgfingerlicknfreespins
+2025-10-27 11:11:44 [main] WARN  script.SampleTest - game = prgeyeofspartacus
+2025-10-27 11:12:17 [main] WARN  script.SampleTest -  templateName  ======= on_betmgmpa__all_default
+2025-10-27 11:12:25 [main] WARN  script.SampleTest - game = prgyoucanpiggybankonit
+2025-10-27 11:12:40 [main] WARN  script.SampleTest - game = prggatesoolympus1000de
+2025-10-27 11:12:56 [main] WARN  script.SampleTest - game = prglivebljkxittricolore1
+2025-10-27 11:13:12 [main] WARN  script.SampleTest - game = prglivecasinoholdem
+2025-10-27 11:13:27 [main] WARN  script.SampleTest - game = prgtempleguardians
+2025-10-27 11:13:43 [main] WARN  script.SampleTest - game = prgfingerlicknfreespins
+2025-10-27 11:13:59 [main] WARN  script.SampleTest - game = prgeyeofspartacus
+2025-10-27 11:14:24 [main] INFO  script.SampleTest -  configureLobbies 

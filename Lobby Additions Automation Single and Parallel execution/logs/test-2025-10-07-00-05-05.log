@@ -1,0 +1,7 @@
+2025-10-07 00:05:08 [main] INFO  script.SampleTest -  Browser launched 
+2025-10-07 00:05:11 [main] WARN  script.SampleTest -  URL ===== https://trunkia-backoffice-real.ivycomptech.co.in/home.action
+2025-10-07 00:05:11 [main] WARN  script.SampleTest -  userName has passed ======= guest 
+2025-10-07 00:05:11 [main] WARN  script.SampleTest -  password has passed ======= 123123 
+2025-10-07 00:05:29 [main] INFO  script.SampleTest -  pressed on  submit button 
+2025-10-07 00:05:29 [main] INFO  script.SampleTest -  login done 
+2025-10-07 00:05:39 [main] INFO  script.SampleTest -  navigateToLobbyManager 

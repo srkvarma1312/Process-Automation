@@ -1,0 +1,4 @@
+2025-08-10 15:11:38 [main] INFO  script.SampleTest - Browser launched
+2025-08-10 15:11:42 [main] INFO  script.SampleTest - Navigated to Google
+2025-08-10 15:11:43 [main] INFO  script.SampleTest - Browser closed
+2025-08-10 15:11:43 [main] INFO  script.SampleTest - Extent report generated

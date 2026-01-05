@@ -1,0 +1,27 @@
+2025-10-27 17:06:29 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  excel data reader  
+2025-10-27 17:06:29 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  sheet.getLastRowNum()  4
+2025-10-27 17:06:29 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-27 17:06:29 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-27 17:06:29 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-27 17:06:29 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  adding values to list  
+2025-10-27 17:06:29 [main] INFO  fileUtilities.GamesAdditionExcelUtility -  excel data reading done   
+2025-10-27 17:06:41 [main] INFO  script.SampleTest -  Browser launched 
+2025-10-27 17:06:46 [main] WARN  script.SampleTest -  URL ===== https://trunkia-backoffice-real.ivycomptech.co.in/home.action
+2025-10-27 17:06:47 [main] WARN  script.SampleTest -  userName has passed ======= guest 
+2025-10-27 17:06:47 [main] WARN  script.SampleTest -  password has passed ======= 123123 
+2025-10-27 17:06:52 [main] INFO  script.SampleTest -  pressed on  submit button 
+2025-10-27 17:06:52 [main] INFO  script.SampleTest -  login done 
+2025-10-27 17:06:59 [main] INFO  script.SampleTest -  navigateToLobbyManager 
+2025-10-27 17:07:06 [main] WARN  script.SampleTest -  templateName  ======= bz_test_1233
+2025-10-27 17:07:19 [main] WARN  script.SampleTest - game = prgpandemicrising
+2025-10-27 17:07:34 [main] WARN  script.SampleTest - game = nyxburninhellholdandwin
+2025-10-27 17:07:58 [main] WARN  script.SampleTest -  templateName  ======= on_betmgmpa__all_default
+2025-10-27 17:08:07 [main] WARN  script.SampleTest - game = prgpandemicrising
+2025-10-27 17:08:22 [main] WARN  script.SampleTest - game = nyxburninhellholdandwin
+2025-10-27 17:08:46 [main] WARN  script.SampleTest -  templateName  ======= fb_all_config
+2025-10-27 17:08:55 [main] WARN  script.SampleTest - game = prgpandemicrising
+2025-10-27 17:09:10 [main] WARN  script.SampleTest - game = nyxburninhellholdandwin
+2025-10-27 17:09:41 [main] WARN  script.SampleTest -  templateName  ======= fbr_all_confignew
+2025-10-27 17:09:50 [main] WARN  script.SampleTest - game = prgpandemicrising
+2025-10-27 17:10:05 [main] WARN  script.SampleTest - game = nyxburninhellholdandwin
+2025-10-27 17:10:31 [main] INFO  script.SampleTest -  configureLobbies 
