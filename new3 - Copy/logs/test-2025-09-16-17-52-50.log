@@ -1,8 +1,0 @@
-2025-09-16 17:52:53 [main] INFO  script.SampleTest -  Browser launched 
-2025-09-16 17:52:55 [main] WARN  script.SampleTest -  URL ===== https://backoffice.partygaming.com.e7new.com/home.action#
-2025-09-16 17:52:55 [main] WARN  script.SampleTest -  userName has passed ======= guest 
-2025-09-16 17:52:55 [main] WARN  script.SampleTest -  password has passed ======= 123123 
-2025-09-16 17:53:06 [main] INFO  script.SampleTest -  pressed on  submit button 
-2025-09-16 17:53:06 [main] INFO  script.SampleTest -  login done 
-2025-09-16 17:53:13 [main] INFO  script.SampleTest -  navigateToLobbyManager 
-2025-09-16 17:53:17 [main] WARN  script.SampleTest -  templateName  ======= bz_c_desktop_default
